@@ -13,6 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
     activeMemberId: null
   };
 
+  // 30-Day Session Configuration & Firebase State
+  const SESSION_KEY = 'mdp269_session';
+  const SESSION_DURATION_MS = 30 * 24 * 60 * 60 * 1000; // 30 Days in Milliseconds
+  
+  let currentAuthData = {
+    email: '',
+    generatedOtp: null
+  };
+
   // DOM Elements
   const elements = {
     navLinks: document.querySelectorAll('.nav-link'),
@@ -30,7 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
     modalTitle: document.getElementById('modalTitle'),
     modalMeta: document.getElementById('modalMeta'),
     modalDesc: document.getElementById('modalDesc'),
-    modalClose: document.getElementById('modalClose')
+    modalClose: document.getElementById('modalClose'),
+
+    // Auth & Session Elements
+    authModal: document.getElementById('authModal'),
+    empIdForm: document.getElementById('empIdForm'),
+    empIdInput: document.getElementById('empIdInput'),
+    empIdNotice: document.getElementById('empIdNotice'),
+    sessionNavContainer: document.getElementById('sessionNavContainer')
   };
 
   // Initialize App
@@ -39,6 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
   async function init() {
     setupEventListeners();
     await loadData();
+    setupAuthListeners();
+    checkSession();
     handleRouting();
     window.addEventListener('hashchange', handleRouting);
   }
@@ -547,4 +565,127 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     ];
   }
+
+  // ==========================================================================
+  // 30-Day Session Manager & 8-Digit Employee ID Authentication
+  // ==========================================================================
+  function checkSession() {
+    const rawSession = localStorage.getItem(SESSION_KEY);
+    if (!rawSession) {
+      promptAuthModal();
+      return false;
+    }
+
+    try {
+      const session = JSON.parse(rawSession);
+      const now = Date.now();
+
+      if (now < session.expiresAt) {
+        // Session is Active & Valid
+        const remainingDays = Math.ceil((session.expiresAt - now) / (1000 * 60 * 60 * 24));
+        renderSessionNav(session.empId, session.nameTh, remainingDays);
+        hideAuthModal();
+        return true;
+      } else {
+        // Session Expired after 30 Days
+        localStorage.removeItem(SESSION_KEY);
+        promptAuthModal('Session การใช้งาน 30 วันหมดอายุแล้ว กรุณากรอกรหัสพนักงานใหม่');
+        return false;
+      }
+    } catch (e) {
+      localStorage.removeItem(SESSION_KEY);
+      promptAuthModal();
+      return false;
+    }
+  }
+
+  function renderSessionNav(empId, nameTh, remainingDays) {
+    if (!elements.sessionNavContainer) return;
+    const shortName = nameTh ? nameTh.split(' ')[0] : `รหัส ${empId}`;
+    elements.sessionNavContainer.innerHTML = `
+      <div class="user-session-pill">
+        <i class="fas fa-user-check"></i>
+        <span>${shortName} (${empId}) &bull; จำอีก ${remainingDays} วัน</span>
+        <button class="btn-logout" onclick="window.logoutUser()">ออก</button>
+      </div>
+    `;
+  }
+
+  window.logoutUser = function() {
+    localStorage.removeItem(SESSION_KEY);
+    renderSessionNavClear();
+    promptAuthModal('ออกจากระบบเรียบร้อยแล้ว');
+  };
+
+  function renderSessionNavClear() {
+    if (elements.sessionNavContainer) {
+      elements.sessionNavContainer.innerHTML = '';
+    }
+  }
+
+  function promptAuthModal(msg) {
+    if (!elements.authModal) return;
+    elements.authModal.classList.add('active');
+    if (msg && elements.empIdNotice) {
+      showNotice(elements.empIdNotice, msg, 'success');
+    }
+  }
+
+  function hideAuthModal() {
+    if (elements.authModal) {
+      elements.authModal.classList.remove('active');
+    }
+  }
+
+  function setupAuthListeners() {
+    if (elements.empIdForm) {
+      elements.empIdForm.addEventListener('submit', handleEmpIdSubmit);
+    }
+  }
+
+  function handleEmpIdSubmit(e) {
+    e.preventDefault();
+    const enteredEmpId = elements.empIdInput.value.trim();
+
+    if (!enteredEmpId) {
+      showNotice(elements.empIdNotice, 'กรุณากรอกรหัสพนักงาน 8 หลัก', 'error');
+      return;
+    }
+
+    // Match against member list empId
+    const matchedMember = state.members.find(m => m.empId && m.empId.toString().trim() === enteredEmpId);
+
+    if (!matchedMember && state.members.length > 0) {
+      showNotice(elements.empIdNotice, 'รหัสพนักงานไม่ถูกต้อง หรือไม่อยู่ในรายชื่อสมาชิกรุ่น MDP 2/69 (48 ท่าน)', 'error');
+      return;
+    }
+
+    const memberName = matchedMember ? matchedMember.nameTh : 'สมาชิกรุ่น MDP 2/69';
+
+    // Save 30-Day Session
+    const sessionObj = {
+      empId: enteredEmpId,
+      nameTh: memberName,
+      loginTime: Date.now(),
+      expiresAt: Date.now() + SESSION_DURATION_MS,
+      authenticated: true
+    };
+
+    localStorage.setItem(SESSION_KEY, JSON.stringify(sessionObj));
+
+    showNotice(elements.empIdNotice, `ยินดีต้อนรับ ${memberName}! บันทึก Session 30 วันสำเร็จ...`, 'success');
+
+    setTimeout(() => {
+      hideAuthModal();
+      checkSession();
+    }, 600);
+  }
+
+  function showNotice(elem, msg, type) {
+    if (!elem) return;
+    elem.textContent = msg;
+    elem.className = `auth-notice ${type}`;
+    elem.style.display = 'block';
+  }
 });
+
