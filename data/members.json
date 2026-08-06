@@ -15,29 +15,39 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00350491.jpg"
   },
   {
     "id": 2,
     "no": 2,
     "empId": "00338361",
     "nameTh": "นายกฤษฎา จงเจริญศรีศิริ",
-    "nameEn": "KRITSADA JONGJAROENSRISIRI",
-    "nickname": "-",
-    "position": "ผู้บริหาร NT",
-    "department": "ส่วนงาน NT",
-    "division": "บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)",
+    "nameEn": "Kritsada Chongcharoensrisiri",
+    "nickname": "หนำ",
+    "position": "ผส.คลตต.",
+    "department": "คลตต.",
+    "division": "ลตต. บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)",
     "workYears": "-",
-    "phone": "-",
+    "phone": "081-810-9008",
     "email": "-",
     "lineId": "-",
-    "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
+    "quote": "",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00338361.jpg"
   },
   {
     "id": 3,
@@ -55,9 +65,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00277451.jpg"
   },
   {
     "id": 4,
@@ -75,9 +90,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00350475.jpg"
   },
   {
     "id": 5,
@@ -95,9 +115,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00351759.jpg"
   },
   {
     "id": 6,
@@ -115,9 +140,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00301806.jpg"
   },
   {
     "id": 7,
@@ -135,9 +165,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00340401.jpg"
   },
   {
     "id": 8,
@@ -155,9 +190,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00310237.jpg"
   },
   {
     "id": 9,
@@ -175,9 +215,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00296364.jpg"
   },
   {
     "id": 10,
@@ -195,9 +240,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00342904.jpg"
   },
   {
     "id": 11,
@@ -215,9 +265,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00332299.jpg"
   },
   {
     "id": 12,
@@ -235,9 +290,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/13600576.jpg"
   },
   {
     "id": 13,
@@ -255,9 +315,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00249214.jpg"
   },
   {
     "id": 14,
@@ -275,9 +340,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00311207.jpg"
   },
   {
     "id": 15,
@@ -295,9 +365,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/13514232.jpg"
   },
   {
     "id": 16,
@@ -315,9 +390,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00300344.jpg"
   },
   {
     "id": 17,
@@ -335,9 +415,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00332286.jpg"
   },
   {
     "id": 18,
@@ -355,9 +440,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00289931.jpg"
   },
   {
     "id": 19,
@@ -375,9 +465,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/13517000.jpg"
   },
   {
     "id": 20,
@@ -395,9 +490,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00323240.jpg"
   },
   {
     "id": 21,
@@ -415,9 +515,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00336473.jpg"
   },
   {
     "id": 22,
@@ -435,9 +540,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00248150.jpg"
   },
   {
     "id": 23,
@@ -455,9 +565,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00302740.jpg"
   },
   {
     "id": 24,
@@ -475,9 +590,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00347624.jpg"
   },
   {
     "id": 25,
@@ -495,9 +615,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00315591.jpg"
   },
   {
     "id": 26,
@@ -515,9 +640,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00301217.jpg"
   },
   {
     "id": 27,
@@ -535,9 +665,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00341374.jpg"
   },
   {
     "id": 28,
@@ -555,9 +690,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00347381.jpg"
   },
   {
     "id": 29,
@@ -575,9 +715,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00363417.jpg"
   },
   {
     "id": 30,
@@ -595,9 +740,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00315436.jpg"
   },
   {
     "id": 31,
@@ -615,9 +765,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00336486.jpg"
   },
   {
     "id": 32,
@@ -635,9 +790,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00361079.jpg"
   },
   {
     "id": 33,
@@ -655,9 +815,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00274658.jpg"
   },
   {
     "id": 34,
@@ -675,9 +840,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00352499.jpg"
   },
   {
     "id": 35,
@@ -695,9 +865,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00322393.jpg"
   },
   {
     "id": 36,
@@ -715,9 +890,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00336541.jpg"
   },
   {
     "id": 37,
@@ -735,9 +915,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00341620.jpg"
   },
   {
     "id": 38,
@@ -755,9 +940,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00348791.jpg"
   },
   {
     "id": 39,
@@ -775,9 +965,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00311346.jpg"
   },
   {
     "id": 40,
@@ -795,9 +990,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00341109.jpg"
   },
   {
     "id": 41,
@@ -815,9 +1015,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00315915.jpg"
   },
   {
     "id": 42,
@@ -835,9 +1040,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00292245.jpg"
   },
   {
     "id": 43,
@@ -855,9 +1065,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00355933.jpg"
   },
   {
     "id": 44,
@@ -875,9 +1090,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00277639.jpg"
   },
   {
     "id": 45,
@@ -895,9 +1115,14 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00357999.jpg"
   },
   {
     "id": 46,
@@ -915,15 +1140,20 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/00307143.jpg"
   },
   {
     "id": 47,
     "no": 55,
     "empId": "00350543",
-    "nameTh": "นายจตรภัทร อิ่มวุฒิ",
+    "nameTh": "นายจตุรภัทร อิ่มวุฒิ",
     "nameEn": "JATURABHUT IMWUT",
     "nickname": "ต๊ะ",
     "position": "ผู้จัดการส่วนประจำ ธทท.",
@@ -935,10 +1165,23 @@
     "lineId": "tutatha",
     "quote": "ขอบคุณทุกมิตรภาพและทุกช่วงเวลาดี ๆ ที่ได้เรียนรู้และเติบโตไปด้วยกัน เราจะต้องอยู่ได้โบนัสทุกปีครับ",
     "aboutMe": "สนใจการนำเทคโนโลยีและ AI มาประยุกต์ใช้เพื่อพัฒนางานและสร้างประสบการณ์ที่ดีให้กับลูกค้า",
-    "strengths": ["กระบวนการตลาดและการขาย", "AI & Data Engineering", "ทาสน้องหมา"],
-    "mdpBenefits": ["ได้รับความรู้เพิ่มเติมมากมาย", "ทักษะภาวะผู้นำ", "เครือข่ายที่มีคุณค่า"],
-    "hobbies": { "goal": "นำประสบการณ์ MDP ไปขับเคลื่อนองค์กร", "inspiration": "ครอบครัวและทีมงาน", "favoriteThing": "เดินทางท่องเที่ยว", "favoriteSong": "Live & Learn" },
-    "avatarUrl": "https://6a734b206a0777cb3f0499e2.imgix.net/sandbox/S__9633857.jpg"
+    "strengths": [
+      "กระบวนการตลาดและการขาย",
+      "AI & Data Engineering",
+      "ทาสน้องหมา"
+    ],
+    "mdpBenefits": [
+      "ได้รับความรู้เพิ่มเติมมากมาย",
+      "ทักษะภาวะผู้นำ",
+      "เครือข่ายที่มีคุณค่า"
+    ],
+    "hobbies": {
+      "goal": "นำประสบการณ์ MDP ไปขับเคลื่อนองค์กร",
+      "inspiration": "ครอบครัวและทีมงาน",
+      "favoriteThing": "เดินทางท่องเที่ยว",
+      "favoriteSong": "Live & Learn"
+    },
+    "avatarUrl": "images/00350543.jpg"
   },
   {
     "id": 48,
@@ -956,8 +1199,13 @@
     "lineId": "-",
     "quote": "มุ่งมั่น เรียนรู้ ร่วมมือกันพัฒนาเพื่ออนาคต NT",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
-    "strengths": ["ภาวะผู้นำ", "การบริหารจัดการ"],
-    "mdpBenefits": ["เครือข่ายมิตรภาพ MDP 2/69"],
-    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80"
+    "strengths": [
+      "ภาวะผู้นำ",
+      "การบริหารจัดการ"
+    ],
+    "mdpBenefits": [
+      "เครือข่ายมิตรภาพ MDP 2/69"
+    ],
+    "avatarUrl": "images/0027xxxx.jpg"
   }
 ]
