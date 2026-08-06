@@ -14,6 +14,10 @@
   
   <!-- Custom Design System Stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Firebase Web SDK (v10 Compat) for Free Authentication & OTP -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
 </head>
 <body>
 
@@ -33,6 +37,9 @@
         <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> หน้าหลัก</a></li>
         <li><a href="#members" class="nav-link"><i class="fas fa-users"></i> สมาชิกรุ่น (48 ท่าน)</a></li>
         <li><a href="#gallery" class="nav-link"><i class="fas fa-images"></i> ภาพกิจกรรม</a></li>
+        <li id="sessionNavContainer">
+          <!-- Session Badge / Logout Button rendered via app.js -->
+        </li>
       </ul>
     </div>
   </header>
@@ -198,6 +205,42 @@
         
         <!-- Album Thumbnails Bar -->
         <div class="modal-thumbnails" id="modalThumbnails"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Executive Employee ID Authentication Modal (30-Day Session) -->
+  <div class="modal" id="authModal">
+    <div class="modal-content auth-modal-content">
+      <div class="auth-modal-header">
+        <div class="auth-icon-badge">
+          <i class="fas fa-id-card"></i>
+        </div>
+        <h2 style="font-size: 1.6rem; color: var(--brand-green); margin-bottom: 0.25rem;">
+          ยืนยันตัวตนสมาชิกรุ่น <span class="text-gold">MDP 2/69</span>
+        </h2>
+        <p style="color: var(--text-dark); font-size: 0.9rem;">
+          กรุณากรอกรหัสพนักงาน 8 หลักของคุณ เพื่อปลดล็อกเข้าชมหนังสือรุ่น (จำการล็อกอิน 30 วัน)
+        </p>
+      </div>
+
+      <div class="auth-modal-body">
+        <form id="empIdForm" class="auth-form-step active">
+          <div class="form-group" style="margin-bottom: 1.25rem;">
+            <label for="empIdInput" style="display: block; font-size: 0.875rem; font-weight: 600; color: var(--brand-green); margin-bottom: 0.4rem;">
+              <i class="fas fa-user-lock"></i> รหัสพนักงาน 8 หลัก
+            </label>
+            <input type="text" id="empIdInput" class="auth-input emp-id-input" placeholder="กรอกรหัสพนักงาน 8 หลัก (เช่น 00350491)" maxlength="8" required />
+            <div id="empIdNotice" class="auth-notice"></div>
+          </div>
+          <button type="submit" id="loginBtn" class="btn btn-primary" style="width: 100%; justify-content: center;">
+            <i class="fas fa-lock-open"></i> เข้าสู่ระบบ (จำการล็อกอิน 30 วัน)
+          </button>
+        </form>
+      </div>
+
+      <div class="auth-modal-footer">
+        <i class="fas fa-shield-alt"></i> เฉพาะสมาชิกรุ่น MDP 2/69 (48 ท่าน) &bull; จำ Session 30 วัน
       </div>
     </div>
   </div>
