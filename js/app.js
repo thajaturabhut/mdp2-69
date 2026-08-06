@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Client-side Hash Router
+  // Client-side Hash Router with Protected Routes
   function handleRouting() {
     const hash = window.location.hash || '#home';
     const [path, queryString] = hash.split('?');
@@ -136,6 +136,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (path === '#members') targetSectionId = 'members';
     else if (path === '#profile') targetSectionId = 'profile';
     else if (path === '#gallery') targetSectionId = 'gallery';
+
+    // Protect Executive-Only Routes (#members and #profile)
+    if (targetSectionId === 'members' || targetSectionId === 'profile') {
+      if (!hasValidSession()) {
+        promptAuthModal('กรุณากรอกรหัสพนักงาน 8 หลัก เพื่อปลดล็อกเข้าดูข้อมูลสมาชิกรุ่น');
+        // Prevent navigation to protected content if not authenticated
+        return;
+      }
+    } else {
+      // Public Pages (#home, #gallery) - Hide modal if open
+      hideAuthModal();
+    }
 
     // Highlight Navbar Link
     elements.navLinks.forEach(link => {
@@ -569,34 +581,32 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================================================
   // 30-Day Session Manager & 8-Digit Employee ID Authentication
   // ==========================================================================
-  function checkSession() {
+  function hasValidSession() {
     const rawSession = localStorage.getItem(SESSION_KEY);
-    if (!rawSession) {
-      promptAuthModal();
-      return false;
-    }
+    if (!rawSession) return false;
 
     try {
       const session = JSON.parse(rawSession);
       const now = Date.now();
 
       if (now < session.expiresAt) {
-        // Session is Active & Valid
         const remainingDays = Math.ceil((session.expiresAt - now) / (1000 * 60 * 60 * 24));
         renderSessionNav(session.empId, session.nameTh, remainingDays);
-        hideAuthModal();
         return true;
       } else {
-        // Session Expired after 30 Days
         localStorage.removeItem(SESSION_KEY);
-        promptAuthModal('Session การใช้งาน 30 วันหมดอายุแล้ว กรุณากรอกรหัสพนักงานใหม่');
+        renderSessionNavClear();
         return false;
       }
     } catch (e) {
       localStorage.removeItem(SESSION_KEY);
-      promptAuthModal();
+      renderSessionNavClear();
       return false;
     }
+  }
+
+  function checkSession() {
+    return hasValidSession();
   }
 
   function renderSessionNav(empId, nameTh, remainingDays) {
@@ -614,7 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.logoutUser = function() {
     localStorage.removeItem(SESSION_KEY);
     renderSessionNavClear();
-    promptAuthModal('ออกจากระบบเรียบร้อยแล้ว');
+    window.location.hash = '#home';
   };
 
   function renderSessionNavClear() {
@@ -673,11 +683,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     localStorage.setItem(SESSION_KEY, JSON.stringify(sessionObj));
 
-    showNotice(elements.empIdNotice, `ยินดีต้อนรับ ${memberName}! บันทึก Session 30 วันสำเร็จ...`, 'success');
+    showNotice(elements.empIdNotice, `ยินดีต้อนรับ ${memberName}! ปลดล็อกข้อมูลสมาชิกรุ่น 30 วันสำเร็จ...`, 'success');
 
     setTimeout(() => {
       hideAuthModal();
       checkSession();
+      handleRouting();
     }, 600);
   }
 
