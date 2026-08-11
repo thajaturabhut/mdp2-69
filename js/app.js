@@ -49,6 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
     sessionNavContainer: document.getElementById('sessionNavContainer')
   };
 
+
+
   // Initialize App
   init();
 
@@ -181,6 +183,24 @@ document.addEventListener('DOMContentLoaded', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  // Executive Silhouette SVG Avatars (Luxury Yellow + Deep Green)
+  function getExecutiveAvatarUrl(member, forceSvg = false) {
+    const name = member.nameTh || '';
+    const isFemale = name.startsWith('น.ส.') || name.startsWith('นาง');
+
+    const svgUrl = isFemale
+      ? `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><linearGradient id="bgF" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%23173F35"/><stop offset="100%" stop-color="%230E2822"/></linearGradient><linearGradient id="gF" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%23FFC400"/><stop offset="100%" stop-color="%23C79A32"/></linearGradient></defs><rect width="300" height="300" fill="url(%23bgF)"/><circle cx="150" cy="150" r="142" fill="none" stroke="url(%23gF)" stroke-width="4" opacity="0.8"/><path d="M150 70 C 120 70 100 92 100 122 C 100 152 110 182 125 182 L 175 182 C 190 182 200 152 200 122 C 200 92 180 70 150 70 Z" fill="url(%23gF)"/><circle cx="150" cy="118" r="36" fill="%23FAF5E8" opacity="0.95"/><path d="M75 270 C 75 210 105 180 150 180 C 195 180 225 210 225 270 Z" fill="%231B4D41"/><path d="M130 180 L150 225 L170 180 Z" fill="%23FAF5E8" opacity="0.9"/></svg>`
+      : `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><linearGradient id="bgM" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%23173F35"/><stop offset="100%" stop-color="%230E2822"/></linearGradient><linearGradient id="gM" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%23FFC400"/><stop offset="100%" stop-color="%23C79A32"/></linearGradient></defs><rect width="300" height="300" fill="url(%23bgM)"/><circle cx="150" cy="150" r="142" fill="none" stroke="url(%23gM)" stroke-width="4" opacity="0.8"/><circle cx="150" cy="118" r="40" fill="%23FAF5E8" opacity="0.95"/><path d="M110 110 C 110 88 128 68 150 68 C 172 68 190 88 190 110 C 180 90 165 86 150 86 C 135 86 120 90 110 110 Z" fill="url(%23gM)"/><path d="M135 152 L165 152 L170 180 L130 180 Z" fill="%23FAF5E8" opacity="0.9"/><path d="M150 178 L142 205 L158 205 Z" fill="url(%23gM)"/><path d="M70 270 C 70 210 100 180 150 180 C 200 180 230 210 230 270 Z" fill="%231B4D41"/><path d="M150 180 L125 270 L175 270 Z" fill="%23FAF5E8" opacity="0.15"/></svg>`;
+
+    if (forceSvg) return svgUrl;
+
+    if (member.avatarUrl && member.avatarUrl.trim() !== '' && !member.avatarUrl.includes('unsplash.com')) {
+      return member.avatarUrl;
+    }
+
+    return svgUrl;
+  }
+
   // Render Members Card Grid
   function renderMembers() {
     if (!elements.membersGrid) return;
@@ -221,27 +241,65 @@ document.addEventListener('DOMContentLoaded', () => {
 
     elements.membersGrid.innerHTML = filtered.map(member => {
       const hasNickname = member.nickname && member.nickname !== '-';
-      const nicknameDisplay = hasNickname ? `"${member.nickname}"` : `รหัส ${member.empId}`;
+      const nicknameDisplay = hasNickname ? member.nickname : '-';
+      const hasPhone = member.phone && member.phone !== '-';
+      const phoneDisplay = hasPhone ? member.phone : '-';
+      const hasEmail = member.email && member.email !== '-';
+      const emailDisplay = hasEmail ? member.email : '-';
+      
+      // Determine description text: use aboutMe, quote, or department info
+      const descDisplay = member.aboutMe && member.aboutMe !== '-' && !member.aboutMe.includes('ผู้เข้าอบรมหลักสูตร')
+        ? member.aboutMe
+        : (member.quote && member.quote !== '-' ? member.quote : `${member.position} ${member.department}`);
+
+      const avatarSrc = getExecutiveAvatarUrl(member);
+      const fallbackSvg = getExecutiveAvatarUrl(member, true);
 
       return `
         <div class="member-card" onclick="window.location.hash='#profile?id=${member.id}'">
           <div class="member-card-header">
-            <img src="${member.avatarUrl}" alt="${member.nameTh}" class="member-photo" loading="lazy" />
+            <img src="${avatarSrc}" alt="${member.nameTh}" class="member-photo" loading="lazy" onerror="this.onerror=null; this.src='${fallbackSvg}';" />
             <div class="no-badge">NO. ${member.no}</div>
           </div>
           <div class="member-card-body">
             <div class="member-name-group">
               <h3 class="member-name">${member.nameTh}</h3>
-              <div class="member-nickname">${nicknameDisplay} &bull; ${member.nameEn}</div>
+              <div class="member-nickname-highlight">${nicknameDisplay}</div>
             </div>
-            <div class="member-info-item">
-              <i class="fas fa-briefcase"></i>
-              <span>${member.position}</span>
+            
+            <div class="position-badge">
+              ${member.position}
             </div>
-            <div class="member-info-item">
-              <i class="fas fa-building"></i>
-              <span>${member.department}</span>
+
+            <div class="contact-details-block">
+              <div class="contact-line">
+                <span class="contact-label">เบอร์โทร</span>
+                <span class="contact-val">${phoneDisplay}</span>
+              </div>
+              <div class="contact-line">
+                <span class="contact-label">อีเมล</span>
+                <span class="contact-val">${emailDisplay}</span>
+              </div>
+              ${member.lineId && member.lineId !== '-' ? `
+              <div class="contact-line">
+                <span class="contact-label">LINE ID</span>
+                <span class="contact-val">
+                  <a href="https://line.me/ti/p/~${encodeURIComponent(member.lineId.replace(/[- \s]/g, '').trim())}" 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     class="line-add-btn" 
+                     onclick="event.stopPropagation();"
+                     title="กดเพื่อแอดไลน์ ${member.nameTh}">
+                    <i class="fab fa-line"></i> ${member.lineId} <i class="fas fa-external-link-alt" style="font-size:0.7rem; opacity:0.8;"></i>
+                  </a>
+                </span>
+              </div>` : ''}
             </div>
+
+            <div class="member-role-desc">
+              ${descDisplay}
+            </div>
+
             <div class="member-card-footer">
               <span><i class="fas fa-id-card"></i> รหัส ${member.empId}</span>
               <span>ดูโปรไฟล์ <i class="fas fa-arrow-right"></i></span>
@@ -257,6 +315,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!elements.profileView) return;
 
     const member = state.members.find(m => m.id === id) || state.members[0];
+    const avatarSrc = getExecutiveAvatarUrl(member);
+    const fallbackSvg = getExecutiveAvatarUrl(member, true);
 
     // Generate Strengths List
     const strengthsHtml = member.strengths ? member.strengths.map(s => `<li>${s}</li>`).join('') : '<li>วิเคราะห์เชิงลึก</li>';
@@ -279,7 +339,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="profile-sidebar">
             <div class="profile-photo-wrapper">
               <span class="profile-no-badge">NO. ${member.no}</span>
-              <img src="${member.avatarUrl}" alt="${member.nameTh}" class="profile-photo" />
+              <img src="${avatarSrc}" alt="${member.nameTh}" class="profile-photo" onerror="this.onerror=null; this.src='${fallbackSvg}';" />
             </div>
             
             <div class="contact-items" style="width: 100%; text-align: left; margin-top: 0.5rem;">
@@ -298,10 +358,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
               </div>
               <div class="contact-item">
-                <div class="contact-icon"><i class="fab fa-line"></i></div>
+                <div class="contact-icon" style="background:#E8F9EE; color:#06C755;"><i class="fab fa-line"></i></div>
                 <div>
                   <div style="font-size: 0.75rem; color: var(--text-muted);">LINE ID</div>
-                  <div style="font-weight: 600;">${member.lineId}</div>
+                  <div style="font-weight: 600;">
+                    ${member.lineId && member.lineId !== '-' ? `
+                      <a href="https://line.me/ti/p/~${encodeURIComponent(member.lineId.replace(/[- \s]/g, '').trim())}" 
+                         target="_blank" 
+                         rel="noopener noreferrer" 
+                         style="color:#06C755; text-decoration:none; font-weight:700; display:inline-flex; align-items:center; gap:0.25rem;"
+                         title="กดเพื่อแอดไลน์ ${member.nameTh}">
+                        ${member.lineId} <i class="fas fa-external-link-alt" style="font-size:0.75rem;"></i>
+                      </a>` : '-'}
+                  </div>
                 </div>
               </div>
             </div>
@@ -336,10 +405,10 @@ document.addEventListener('DOMContentLoaded', () => {
                   </div>
                 </div>
                 <div class="meta-pill">
-                  <i class="fas fa-history"></i>
+                  <i class="fas fa-calendar-check"></i>
                   <div>
-                    <span class="meta-pill-label">อายุงานกับ NT</span>
-                    <span class="meta-pill-val">${member.workYears}</span>
+                    <span class="meta-pill-label">ปีเกษียณ</span>
+                    <span class="meta-pill-val">${member.retirementYear || member.workYears || '-'}</span>
                   </div>
                 </div>
               </div>
