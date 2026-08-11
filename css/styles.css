@@ -510,7 +510,7 @@ h2, h3, h4, h5, h6, .section-title, .member-name {
 
 .member-card-header {
   position: relative;
-  height: 260px;
+  height: 320px;
   overflow: hidden;
   background: #F4F4F4;
 }
@@ -548,6 +548,7 @@ h2, h3, h4, h5, h6, .section-title, .member-name {
   display: flex;
   flex-direction: column;
   flex: 1;
+  background: var(--white);
 }
 
 .member-name-group {
@@ -555,31 +556,98 @@ h2, h3, h4, h5, h6, .section-title, .member-name {
 }
 
 .member-name {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.35rem;
+  font-weight: 700;
   color: var(--brand-green);
+  margin-bottom: 0.15rem;
+  font-family: var(--font-big-heading);
+  line-height: 1.25;
+}
+
+/* Nickname Highlight: Gold/NT Yellow Accent Text (Matching Example) */
+.member-nickname-highlight {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #D99B00;
+  font-family: var(--font-heading);
   margin-bottom: 0.25rem;
 }
 
-/* Nickname Badge: Yellow Background, Deep Green Text */
-.member-nickname {
-  display: inline-block;
-  background: var(--brand-yellow);
-  color: var(--brand-green);
-  font-weight: 600;
+/* Position Badge: Dark Executive Box (Matching Example Layout) */
+.position-badge {
+  background: #3A3A3A;
+  color: var(--white);
+  font-family: var(--font-heading);
   font-size: 0.85rem;
-  padding: 0.15rem 0.65rem;
-  border-radius: 50px;
-  margin-top: 0.2rem;
+  font-weight: 600;
+  padding: 0.45rem 0.85rem;
+  border-radius: 4px;
+  margin-bottom: 0.85rem;
+  line-height: 1.35;
+  display: inline-block;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
 }
 
-.member-info-item {
+/* Contact Details Block (tel / mail) */
+.contact-details-block {
+  margin-bottom: 0.75rem;
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.contact-line {
+  display: flex;
+  align-items: center;
   gap: 0.6rem;
+  font-size: 0.875rem;
   color: var(--text-dark);
-  font-size: 0.925rem;
-  margin-bottom: 0.4rem;
+}
+
+.contact-label {
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.825rem;
+  min-width: 54px;
+}
+
+.contact-val {
+  color: #222222;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.line-add-btn {
+  color: #06C755;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: all 0.2s ease;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(6, 199, 85, 0.08);
+  border: 1px solid rgba(6, 199, 85, 0.2);
+}
+
+.line-add-btn:hover {
+  background: #06C755;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 6px rgba(6, 199, 85, 0.3);
+}
+
+/* Role / Job Description Block */
+.member-role-desc {
+  font-size: 0.875rem;
+  color: #444444;
+  line-height: 1.45;
+  margin-bottom: 1.1rem;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .member-info-item i {
