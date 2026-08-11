@@ -64,58 +64,34 @@
   },
   {
     "id": 3,
-    "title": "การบรรยายพิเศษ Strategic Digital Transformation",
+    "title": "การบรรยายหลักการทรงงานกับโครงการพระราชดำริ",
     "category": "การเรียนรู้",
-    "date": "5 เมษายน 2569",
-    "imageUrl": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1000&q=80",
+    "date": "7 สิงหาคม 2569",
+    "imageUrl": "กิจกรรม/04_หลักการทรงงาน/L1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1000&q=80"
+      "กิจกรรม/04_หลักการทรงงาน/L2.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L3.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L4.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L5.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L6.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L7.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L8.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L9.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L10.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L11.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L12.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L13.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L14.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L15.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L16.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L17.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L18.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L19.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L20.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L21.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L22.jpg",
+      "กิจกรรม/04_หลักการทรงงาน/L23.jpg"
     ],
-    "description": "แลกเปลี่ยนมุมมองกับวิทยากรผู้ทรงคุณวุฒิระดับประเทศ ด้านการเปลี่ยนผ่านองค์กรสู่ยุคดิจิทัล การขับเคลื่อนองค์กรด้วยข้อมูล (Data-Driven Organization) และ AI"
-  },
-  {
-    "id": 4,
-    "title": "กิจกรรมศึกษาดูงานองค์กรนวัตกรรมชั้นนำ",
-    "category": "ศึกษาดูงาน",
-    "date": "18 เมษายน 2569",
-    "imageUrl": "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?auto=format&fit=crop&w=1000&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&q=80"
-    ],
-    "description": "คณะผู้บริหาร MDP 2/69 เยี่ยมชมศูนย์นวัตกรรมและเทคโนโลยีอนาคต เรียนรู้เคสศึกษาจริงในการพัฒนาผลิตภัณฑ์และบริการที่ตอบโจทย์ลูกค้ายุคใหม่"
-  },
-  {
-    "id": 5,
-    "title": "การนำเสนอผลงาน Capstone Project",
-    "category": "ผลงาน",
-    "date": "10 พฤษภาคม 2569",
-    "imageUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1000&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=80"
-    ],
-    "description": "การนำเสนอโครงงานกลยุทธ์พัฒนาองค์กร (Capstone Project) ของผู้เข้าอบรมทั้ง 6 กลุ่ม ตอบโจทย์การแก้ไขปัญหาและสร้างนวัตกรรมใหม่ให้ National Telecom"
-  },
-  {
-    "id": 6,
-    "title": "บรรยากาศความอบอุ่น งานเลี้ยงสังสรรค์ MDP 2/69",
-    "category": "ความประทับใจ",
-    "date": "20 พฤษภาคม 2569",
-    "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1000&q=80"
-    ],
-    "description": "ค่ำคืนแห่งความทรงจำ งานเลี้ยงสังสรรค์ปิดหลักสูตร การมอบวุฒิบัตร และการส่งต่อมิตรภาพของพี่น้องผู้บริหาร MDP 2/69 ที่จะคงอยู่ตลอดไป"
+    "description": "รับฟังบรรยาย จาก พ.อ.หญิง วิเชียรรัตน์ วิทยากรจิตอาสา 904 หลักการทรงงานกับโครงการพระราชดำริ"
   }
 ]
