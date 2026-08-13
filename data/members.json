@@ -37,7 +37,7 @@
     "retirementYear": "2575",
     "phone": "0818109008",
     "email": "kritsada.c@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0818109008",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -55,7 +55,7 @@
     "nameTh": "นายฉัตรชัย ชื่นภิรมย์",
     "nameEn": "Chatchai Cheunpirom",
     "nickname": "ฉัตร",
-    "position": "ผส.ประจำกทท.",
+    "position": "ผส.ประจำ กทท.",
     "department": "กทท.",
     "division": "กจญ.",
     "retirementYear": "2572",
@@ -137,7 +137,7 @@
     "retirementYear": "2573",
     "phone": "0813526058",
     "email": "santi.b@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0813526058",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -156,15 +156,15 @@
     "nameTh": "นายสมเกียรติ รัตนกูล",
     "nameEn": "somkiat rattanakoon",
     "nickname": "ฉิ่ง",
-    "position": "ผส.ประจำอทท.",
+    "position": "ผศ.ประจำ อทท.",
     "department": "อทท.",
     "division": "กจญ.",
     "retirementYear": "30",
     "phone": "-",
     "email": "-",
-    "lineId": "ฉิ่งครับ",
+    "lineId": "",
     "quote": "-",
-    "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
+    "aboutMe": "ฉิ่งครับ",
     "strengths": [
       "ภาวะผู้นำ",
       "การบริหารจัดการ"
@@ -181,13 +181,13 @@
     "nameTh": "นายสมชาย สถิน",
     "nameEn": "Somchai Satin",
     "nickname": "ชาย",
-    "position": "ผส.ประจำคสส.",
+    "position": "ผส.ประจำ คสส.",
     "department": "คสส.",
     "division": "กจญ.",
     "retirementYear": "2572",
-    "phone": "0882425994",
+    "phone": "088-295-0777",
     "email": "somchai.sat@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0882425994",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -206,20 +206,17 @@
     "nameTh": "นายบุญธรรม อาทรวิริยกุล",
     "nameEn": "Boontham Arthonwiriyakul",
     "nickname": "ธรรม",
-    "position": "ผส.ตคสส.",
-    "department": "ตคสส.",
+    "position": "ผส.ตคสส",
+    "department": "ตคสส",
     "division": "กจญ.",
     "retirementYear": "2574",
     "phone": "081-419-0144",
     "email": "boontham.a@ntplc.co.th",
     "lineId": "814190144",
-    "quote": "อยากมาเที่ยวทะเลสตูล นึกถึงผมนะครับ",
-    "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
+    "quote": "ลงมือทำคือคำตอบ",
+    "aboutMe": "อยากมาเที่ยวทะเลสตูล นึกถึงผมนะครับ",
     "strengths": [
-      "ตคสส",
-      "คสส",
-      "ร้องเพลงไม่เป็น",
-      "ลงมือทำคือคำตอบ"
+      "ร้องเพลงไม่เป็น"
     ],
     "mdpBenefits": [
       "ได้ความรู้มากขึ้น มีเพื่อนมาก"
@@ -283,7 +280,7 @@
     "nameTh": "น.ส.ศิริลักษณ์ มูฮำหมัด",
     "nameEn": "Siriluk Muhammad",
     "nickname": "ฟ้า",
-    "position": "ผส.ผญสส.",
+    "position": "ผู้จัดการส่วนวางแผน โครงข่ายสื่อสัญญาณ",
     "department": "ผญสส.",
     "division": "กจญ.",
     "retirementYear": "2573",
@@ -308,22 +305,21 @@
     "nameTh": "นายปริญญา จันทร์ชนะ",
     "nameEn": "Parinya Junchana",
     "nickname": "ติ่ง",
-    "position": "ผส.บกน.2(พบ.)",
-    "department": "บกน.2(พบ.)",
+    "position": "โทรคมนาคมจังหวัดเพชรบุรี",
+    "department": "บกน.2(พบ)",
     "division": "น.",
     "retirementYear": "2572",
     "phone": "0813501968",
     "email": "parinya.j@ntplc.co.th",
-    "lineId": "-",
-    "quote": "-",
+    "lineId": "0813501968",
+    "quote": "มีพี่ มีเพื่อน มีน้อง",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
-      "โทรคมนาคมจังหวัดเพชรบุรี",
       "บกน.2(พบ)",
       "กน.2"
     ],
     "mdpBenefits": [
-      "มีพี่ มีเพื่อน มีน้อง"
+      ""
     ],
     "avatarUrl": "images/00249214.jpg"
   },
@@ -334,14 +330,14 @@
     "nameTh": "นายวัชรินทร์ ช้ายเกลี้ยง",
     "nameEn": "Watcharin Saikliang",
     "nickname": "วัช",
-    "position": "ผส.วขตน.",
+    "position": "ผู้จัดการส่วนวิศกรรมและบริหารโครงข่าย",
     "department": "วขตน.",
     "division": "น.",
     "retirementYear": "2573",
-    "phone": "0882985936",
+    "phone": "081-4190123",
     "email": "watcharin.s@ntplc.co.th",
-    "lineId": "-",
-    "quote": "ผู้จัดการส่วนวิศกรรมและบริหารโครงข่าย",
+    "lineId": "0882985936",
+    "quote": "",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
       "ตน."
@@ -357,20 +353,18 @@
     "empId": "13514232",
     "nameTh": "นายปรีชา เวียงวิเศษ",
     "nameEn": "Preecha Viangvised",
-    "nickname": "การว่าคดี",
-    "position": "ผส.พดตป.",
+    "nickname": "พี่ปรี / อุ๊ต",
+    "position": "ผู้จัดการส่วนพัสดุ",
     "department": "พดตป.",
     "division": "ป.",
     "retirementYear": "34",
     "phone": "0893505000",
     "email": "viangvis@gmail.com",
-    "lineId": "-",
+    "lineId": "0893505000",
     "quote": "ล้มได้ แต่อย่าถอย และงานเป็นส่วนหนึ่งของชีวิต แต่อย่าทิ้งชีวิตทั้งหมดให้กับงาน",
     "aboutMe": "ยินดีที่ได้รู้จักเพื่อน ๆ ทุกคนครับ",
     "strengths": [
-      "พี่ปรี / อุ๊ต",
-      "พี่ปรี / อุ๊ต",
-      "ผู้จัดการส่วนพัสดุ",
+      "การว่าคดี",
       "ที่ปรึกษาด้านกฎหมาย"
     ],
     "mdpBenefits": [
@@ -385,17 +379,17 @@
     "nameTh": "นายวสันต์ ไชยน้อย",
     "nameEn": "Wasan Chainoi",
     "nickname": "หนุ่ย",
-    "position": "ผส.บลนป.",
+    "position": "ผู้จัดการส่วนระบบบำรุงรักษากลาง",
     "department": "บลนป.",
-    "division": "ป.",
+    "division": "นป.1",
     "retirementYear": "2571",
     "phone": "0812310193",
     "email": "-",
-    "lineId": "2571",
-    "quote": "ผู้จัดการส่วนระบบบำรุงรักษากลาง",
+    "lineId": "",
+    "quote": "",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
-      "นป.1"
+      ""
     ],
     "mdpBenefits": [
       "เครือข่ายมิตรภาพ MDP 2/69"
@@ -409,7 +403,7 @@
     "nameTh": "นายกันตภณ บุญลือ",
     "nameEn": "Kantapon Boonlue",
     "nickname": "โอ้",
-    "position": "ผส.บนป.1(ชม.)",
+    "position": "โทรคมนาคมจังหวัดเชียงใหม่",
     "department": "บนป.1(ชม.)",
     "division": "ป.",
     "retirementYear": "2576",
@@ -419,9 +413,8 @@
     "quote": "Suscess = ความสำเร็จ = ไม่มีทางได้มาง่ายดาย ,ไม่มีทางลัด , ไม่มีทางสะดวกสบาย",
     "aboutMe": "Believe",
     "strengths": [
-      "โทรคมนาคมจังหวัดเชียงใหม่",
-      "นป.1"
-    ],
+      ""
+     ],
     "mdpBenefits": [
       "เครือข่ายมิตรภาพ MDP 2/69"
     ],
@@ -434,19 +427,17 @@
     "nameTh": "ว่าที่ร้อยโทประจักษ์ กิติ",
     "nameEn": "Acting L.T Prachak Kiti",
     "nickname": "จักษ์",
-    "position": "ผส.บนป.1(ชร.)",
-    "department": "บนป.1(ชร.)",
+    "position": "โทรคมนาคมจังหวัดเชียงราย",
+    "department": "บนป.1 (ชร.)",
     "division": "ป.",
     "retirementYear": "2573",
     "phone": "081-231-0160",
     "email": "prachak.k@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0812310160",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
-      "โทรคมนาคมจังหวัดเชียงราย",
-      "บนป.1 (ชร.)",
-      "นป.1"
+      ""
     ],
     "mdpBenefits": [
       "เครือข่ายมิตรภาพ MDP 2/69"
@@ -460,7 +451,7 @@
     "nameTh": "นายสินธพ อุ่นกาศ",
     "nameEn": "Sinthop Ounkat",
     "nickname": "เบิ้ม",
-    "position": "ผส.บนป.1(พร.)",
+    "position": "โทรคมนาคมจังหวัดแพร่",
     "department": "บนป.1(พร.)",
     "division": "ป.",
     "retirementYear": "34",
@@ -470,8 +461,7 @@
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
-      "โทรคมนาคมจังหวัดแพร่",
-      "นป.1"
+      ""
     ],
     "mdpBenefits": [
       "เครือข่ายมิตรภาพ MDP 2/69"
@@ -485,13 +475,13 @@
     "nameTh": "นายจักรธร มนูรัษฎา",
     "nameEn": "Jakratorn Manurasada",
     "nickname": "แจ๊ค",
-    "position": "ผส.ประจำขทค.",
+    "position": "ผส.ประจำ ขทค.",
     "department": "ขทค.",
     "division": "ค.",
     "retirementYear": "2575",
     "phone": "0813520620",
     "email": "jakratorn.m@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0813520620",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -510,7 +500,7 @@
     "nameTh": "นายรพีธรรม์ รัชพงษ์โพนทอง",
     "nameEn": "Rapheetan Ratchphongphontong",
     "nickname": "พี",
-    "position": "ผส.ประจำขทค.",
+    "position": "ผส.ประจำ ขทค.",
     "department": "ขทค.",
     "division": "ค.",
     "retirementYear": "2578",
@@ -535,13 +525,13 @@
     "nameTh": "นายสุรสิทธิ์ กิจคณะ",
     "nameEn": "Surasit Kitkana",
     "nickname": "ป๋อน",
-    "position": "ผส.ประจำขทค.",
+    "position": "ผส.ประจำ ขทค.",
     "department": "ขทค.",
     "division": "ค.",
     "retirementYear": "2570",
     "phone": "0813500140",
     "email": "surasit.k@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0813500140",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -566,7 +556,7 @@
     "retirementYear": "38",
     "phone": "0813500162",
     "email": "samrum.w@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0813500162",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -585,12 +575,12 @@
     "nameEn": "Sarayut Panarat",
     "nickname": "ปอนด์",
     "position": "ผส.ดสทค.",
-    "department": "คทค.",
+    "department": "ดสทค.",
     "division": "ค.",
     "retirementYear": "28",
     "phone": "0813520487",
     "email": "sarayut.p@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0813520487",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -663,7 +653,7 @@
     "retirementYear": "2576",
     "phone": "0813526113",
     "email": "sanya.s@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0813526113",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -688,7 +678,7 @@
     "phone": "096-841-6514",
     "email": "chayawat.s@ntplc.co.th",
     "lineId": "marine_2544",
-    "quote": "\"นตฺถิ กมฺมํ สม พลํ\"",
+    "quote": "นตฺถิ กมฺมํ สม พลํ แรงใดในโลก เสมอด้วยแรงกรรมไม่มี",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
       "ดทค.",
@@ -706,9 +696,9 @@
     "nameTh": "นายพีระศักดิ์ วังโสม",
     "nameEn": "Peerasak Wangsom",
     "nickname": "ต๋อง",
-    "position": "วดทค.",
-    "department": "ค.",
-    "division": "ต๋อง",
+    "position": "ผส.วดทค.",
+    "department": "วดทค.",
+    "division": "ค.",
     "retirementYear": "-",
     "phone": "0882952859",
     "email": "-",
@@ -784,7 +774,7 @@
     "retirementYear": "20",
     "phone": "0882628928",
     "email": "weerapong.pi@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0882628928",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -804,7 +794,7 @@
     "nickname": "น้อง",
     "position": "ผส.คพกง.",
     "department": "คพกง.",
-    "division": "ง.",
+    "division": "พัสดุ (พกง.)",
     "retirementYear": "2574",
     "phone": "061-795-4498",
     "email": "patcharin.j@ntplc.co.th",
@@ -856,11 +846,11 @@
     "nickname": "เบียบ",
     "position": "ผส.วบชง.",
     "department": "วบชง.",
-    "division": "ง.",
+    "division": "บัญชีบริหารและกรอบอัตราค่าบริการ (บชง.)",
     "retirementYear": "2576",
     "phone": "0864401199",
     "email": "rabeab.p@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0864401199",
     "quote": "เราเป็นเพียงสิ่งเล็กๆ สิ่งหนึ่งในจักรวาล",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -914,10 +904,10 @@
     "quote": "ถ้าคุณใส่สูทมาคุณจะถูกเลือกให้เป็นหัวหน้าทีม",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
-      "ออธ."
+      ""
     ],
     "mdpBenefits": [
-      "เครือข่ายมิตรภาพ MDP 2/69"
+      "อะไรที่เราไม่รู้เราก็ได้รู้และสิ่งที่เราคิดอาจจะไม่ถูกต้องเสมอไป"
     ],
     "avatarUrl": "images/00341620.jpg"
   },
@@ -935,14 +925,12 @@
     "phone": "081-352-0493",
     "email": "pidok.m@ntplc.co.th",
     "lineId": "pidok.m",
-    "quote": "-",
+    "quote": "มีปัญหาปรึกษาโต",
     "aboutMe": "โตครับ สวัสดีครับ ยินดีที่ได้ร่วมรุ่นครับ",
     "strengths": [
-      "บลบ.",
       "ชอบช่วยเหลือคน",
       "ไม่สูบ ไม่ดื่ม",
-      "เมาทุกรถ",
-      "มีปัญหาปรึกษาโต"
+      "เมาทุกรถ"
     ],
     "mdpBenefits": [
       "ได้เพื่อนใหม่",
@@ -958,24 +946,21 @@
     "nameTh": "น.ส.อมรลักษณ์ พุทธิสมาน",
     "nameEn": "Amornlack Phuthisaman",
     "nickname": "หญิง",
-    "position": "ผส.ประจำบลบ.",
+    "position": "ผส. ประจำ บลบ",
     "department": "บลบ.",
     "division": "บ.",
     "retirementYear": "2572",
     "phone": "087-599-1965",
     "email": "amornlak. r@ntplc.co.th",
     "lineId": "-",
-    "quote": "-",
+    "quote": "so good",
     "aboutMe": "ขอบคุณที่ได้ร่วมรุ่น",
     "strengths": [
-      "บลบ",
       "สูงจ้า",
-      "ขำขัน",
-      "รู้เพิ่มนำไปใช้ได้จริง",
-      "so good"
+      "ขำขัน"
     ],
     "mdpBenefits": [
-      "เครือข่ายมิตรภาพ MDP 2/69"
+      "รู้เพิ่มนำไปใช้ได้จริง"
     ],
     "avatarUrl": "images/00311346.jpg"
   },
@@ -1021,16 +1006,14 @@
     "quote": "I may not see the reason now",
     "aboutMe": "Hi there!",
     "strengths": [
-      "พธย.",
       "ไม่สูบบุหรี่",
       "ไม่ดื่ม",
-      "ดื่มนิสนึงก้อได้",
+      "ดื่มนิสนึงก้อได้"
+    ],
+    "mdpBenefits": [
       "กาแฟดำ หวาน 25%",
       "กาแฟดำ หวาน 0%",
       "กาแฟดำ เพิ่มช้อต"
-    ],
-    "mdpBenefits": [
-      "เครือข่ายมิตรภาพ MDP 2/69"
     ],
     "avatarUrl": "images/00315915.jpg"
   },
@@ -1073,17 +1056,15 @@
     "phone": "086-460-1062",
     "email": "nont.b@ntplc.co.th",
     "lineId": "-",
-    "quote": "-",
+    "quote": "เอางานเสร็จ ไม่เน้นงานสวย",
     "aboutMe": "ยินดีที่ได้รู้จักทุกท่านครับ",
     "strengths": [
-      "ผรร.",
-      "เป็นคนเสมอต้นเสมอปลาย",
-      "การเจรจาต่อรอง",
-      "Update ข้อมูลบริการของ NT",
-      "เอางานเสร็จ ไม่เน้นงานสวย"
+      "เป็นคนเสมอต้นเสมอปลาย"
     ],
     "mdpBenefits": [
-      "ความรู้ด้าน AI เยอะมาก"
+      "ความรู้ด้าน AI เยอะมาก",
+      "การเจรจาต่อรอง",
+      "Update ข้อมูลบริการของ NT"
     ],
     "avatarUrl": "images/00355933.jpg"
   },
@@ -1122,9 +1103,9 @@
     "department": "บสรร.",
     "division": "ร.",
     "retirementYear": "2581",
-    "phone": "0815662765",
+    "phone": "081-232-0067",
     "email": "jomjai.b@ntplc.co.th",
-    "lineId": "-",
+    "lineId": "0815662765",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
@@ -1140,20 +1121,19 @@
     "no": 54,
     "empId": "00307143",
     "nameTh": "นายอุเทน ตรีเพชรรัตน์",
-    "nameEn": "",
+    "nameEn": "Uthane Tripetcharut",
     "nickname": "-",
     "position": "ผส.ทวว.2",
     "department": "ทวว.2",
     "division": "ว.",
-    "retirementYear": "-",
-    "phone": "0982895224",
+    "retirementYear": "2574",
+    "phone": "",
     "email": "-",
     "lineId": "-",
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
-      "ภาวะผู้นำ",
-      "การบริหารจัดการ"
+      ""
     ],
     "mdpBenefits": [
       "เครือข่ายมิตรภาพ MDP 2/69"
@@ -1174,13 +1154,12 @@
     "phone": "086-342-5451",
     "email": "jaturabhut.i@ntplc.co.th",
     "lineId": "tutatha",
-    "quote": "ฝ่ายระบบสนับสนุนการดำเนินธุรกิจ",
-    "aboutMe": "สนใจการนำเทคโนโลยีและ AI มาประยุกต์ใช้เพื่อพัฒนางานและสร้างประสบการณ์ที่ดีให้กับลูกค้า\nเป็นคนตั้งใจทำงาน เรียนรู้สิ่งใหม่เสมอ และยินดีแลกเปลี่ยนประสบการณ์กับเพื่อน ๆ ทุกคน\nขอบคุณทุกมิตรภาพและทุกช่วงเวลาดี ๆ ที่ได้เรียนรู้และเติบโตไปด้วยกัน เราจะต้องอยู่ได้โบนัสทุกปีครับ",
+    "quote": "ขอบคุณทุกมิตรภาพและทุกช่วงเวลาดี ๆ ที่ได้เรียนรู้และเติบโตไปด้วยกัน เราจะต้องอยู่ได้โบนัสทุกปีครับ",
+    "aboutMe": "สนใจการนำเทคโนโลยีและ AI มาประยุกต์ใช้เพื่อพัฒนางานและสร้างประสบการณ์ที่ดีให้กับลูกค้า",
     "strengths": [
       "กระบวนการตลาดและการขาย",
       "AI&Data Engineering",
-      "ทาสน้องหมา",
-      "-"
+      "ทาสน้องหมา"
     ],
     "mdpBenefits": [
       "ได้รับความรู้เพิ่มเติมมากมาย"
@@ -1193,9 +1172,9 @@
     "empId": "00270678",
     "nameTh": "นายวีระ ทองไพบูลย์",
     "nameEn": "Weera Tongpaiboon",
-    "nickname": "-",
+    "nickname": "V",
     "position": "ผส.วสรร.",
-    "department": "สรร.",
+    "department": "ฝ่ายโครงข่ายสื่อสารไร้สาย",
     "division": "ร.",
     "retirementYear": "2572",
     "phone": "081-350-0133",
@@ -1204,14 +1183,11 @@
     "quote": "-",
     "aboutMe": "ผู้เข้าอบรมหลักสูตร Management Development Program (MDP) รุ่น 2/69",
     "strengths": [
-      "V",
-      "ฝ่่ายโครงข่ายสื่อสารไร้สาย",
       "NT Wireless Product",
-      "NT Facility",
-      "Relation & Connection"
+      "NT Facility"
     ],
     "mdpBenefits": [
-      "เครือข่ายมิตรภาพ MDP 2/69"
+      "Relation & Connection"
     ],
     "avatarUrl": "images/00270678.jpg"
   }
